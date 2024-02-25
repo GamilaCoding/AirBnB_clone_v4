@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-views
+Creates a Blueprint instance with `url_prefix` set to `/api/v1`.
 """
 
 from flask import Blueprint
