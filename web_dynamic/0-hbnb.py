@@ -9,7 +9,7 @@ import uuid;
 # flask setup
 app = Flask(__name__)
 app.url_map.strict_slashes = False
-port = 5000
+port = 5001
 host = '0.0.0.0'
 
 
