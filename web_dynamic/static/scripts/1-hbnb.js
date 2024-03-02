@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 window.addEventListener('load', function () {
   // task 2
   const amenityIds = {};
@@ -13,4 +14,18 @@ window.addEventListener('load', function () {
       $('div.amenities h4').text(Object.values(amenityIds).join(', '));
     }
   });
+=======
+$(function()
+{
+    const amenity_dict = {};
+    $("input[type=checkbox]").change( function() 
+    {
+        if ($(this).is(":checked")) {
+            amenity_dict[$(this).attr("data-id")] = $(this).attr("data-name");
+        } else {
+            delete amenity_dict[$(this).attr("data-id")];
+        }
+        $(".amenities h4").text(Object.values(amenity_dict).join(", "));
+    });
+>>>>>>> 5914503c7b43873af1c44140d2de5cab66423e55
 });

@@ -2,6 +2,17 @@
 <html lang="en">
   <head>
 
+    <!-- Create a new template 2-hbnb.html (based on 1-hbnb.html) and update it:
+
+Add a new div element in the header tag:
+Attribute ID should be api_status
+Align to the right
+Circle of 40px diameter
+Center vertically
+At 30px of the right border
+Background color #cccccc
+Also add a class available for this new element in web_dynamic/static/styles/3-header.css:
+Background color #ff545f -->
     <!-- HEAD -->
 
     <meta charset="utf-8">
@@ -23,7 +34,7 @@
     <link rel="stylesheet" href="../static/styles/6-filters.css?{{ cache_id }}">
     <link rel="stylesheet" href="../static/styles/8-places.css?{{ cache_id }}">
     <link rel="stylesheet" href="../static/styles/font-awesome.css?{{ cache_id }}">
-    <script src="../static/scripts/1-hbnb.js?{{ cache_id }}"></script>
+    <script src="../static/scripts/2-hbnb.js?{{ cache_id }}"></script>
   </head>
 
   <!-- **********************
@@ -37,7 +48,9 @@
 	 ********************** -->
 
     <header>
+        <div id="api_status"></div>
     </header>
+
     <main>
       <div class="container">
 
