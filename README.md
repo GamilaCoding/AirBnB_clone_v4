@@ -154,7 +154,7 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Gamila Programmer - [Github](https://github.com/gameliaprogrammer)
+Gamila Programmer - [Github](https://github.com/GamilaCoding)
 Amr Alnas - [Github](https://github.com/AMR856) 
 
 Second part of Airbnb: Joann Vuong
